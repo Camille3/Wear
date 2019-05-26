@@ -1,0 +1,151 @@
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+
+	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+	img,
+	table,
+	td,
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	video {
+		max-width: 100%;
+	}
+
+	/* conserver le ratio des images */
+
+	img {
+		height: auto;
+	}
+
+	/* gestion des mots longs */
+
+	textarea,
+	table,
+	td,
+	th,
+	code,
+	pre,
+	samp {
+		-webkit-hyphens: auto; /* césure propre */
+		-moz-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word; /* passage à la ligne forcé */
+	}
+
+	code,
+	pre,
+	samp {
+		white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+	}
+
+	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+	.element1,
+	.element2 {
+		float: none;
+		width: auto;
+	}
+
+	/* masquer les éléments superflus */
+
+	.hide_mobile {
+		display: none !important;
+	}
+
+	/* Un message personnalisé */
+
+
+}
+
+
+
+
+h1 {
+  position: absolute;
+width: 322px;
+height: 65px;
+left: 26px;
+top: 94px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #65B389;
+
+}
+
+h2{
+  position: absolute;
+width: 322px;
+height: 65px;
+left: 26px;
+top: 183px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+color: #696969;
+}
+
+.image1{
+  position: absolute;
+width: 240px;
+height: 245px;
+left: 67px;
+top: 280px;
+}
+
+.circle1 {
+position: absolute;
+width: 10px;
+height: 10px;
+left: 182px;
+top: 606px;
+border-radius: 50%;
+background: #EAE8E8;
+}
+
+.circle2 {
+position: absolute;
+width: 10px;
+height: 10px;
+left: 160px;
+top: 606px;
+border-radius: 50%;
+background: #65B389;
+}
+
+.circle3 {
+position: absolute;
+width: 10px;
+height: 10px;
+left: 204px;
+top: 606px;
+border-radius: 50%;
+background: #EAE8E8;
+}
