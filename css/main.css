@@ -116,6 +116,52 @@ h3 {
 	height: 24px;
 	left: 19px;
 	top: 395px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+color: #9B9B9B;
+}
+
+h4 {
+	position: absolute;
+	width: 322px;
+	height: 32px;
+	left: 20px;
+	top: 65px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+
+color: #65B389;
+}
+
+.titre-compo {
+	position: absolute;
+	width: 322px;
+	height: 32px;
+	left: 20px;
+	top: 181px;
+	font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+color: #9B9B9B;
+
+}
+
+.titre-prod {
+	position: absolute;
+width: 322px;
+height: 32px;
+left: 20px;
+top: 315px;
 
 font-family: Nunito;
 font-style: normal;
@@ -124,6 +170,24 @@ font-size: 20px;
 line-height: 27px;
 
 color: #9B9B9B;
+
+}
+
+.titre-lavage {
+
+	position: absolute;
+	width: 322px;
+	height: 32px;
+	left: 20px;
+	top: 634px;
+
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+
+	color: #9B9B9B;
 }
 
 .image1{
@@ -168,6 +232,7 @@ top: 534px;
 
 .menu {
 position: absolute;
+position: fixed;
 width: 375px;
 height: 74px;
 left: 0px;
@@ -217,5 +282,70 @@ top: 227px;
 background: #65B389;
 border-radius: 19px;
 }
+
+.retour
+{
+position: absolute;
+left: 22px;
+top: 43px;
+}
+
+.aide {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 333px;
+	top: 39px;
+}
+
+.note {
+	position: absolute;
+width: 116px;
+height: 26px;
+left: 20px;
+top: 142px;
+}
+
+.polyester {
+	position: absolute;
+width: 334px;
+height: 68.14px;
+left: 20px;
+top: 222px;
+}
+
+.chine {
+	position: absolute;
+	width: 334px;
+	height: 68.14px;
+	left: 20px;
+	top: 359px;
+}
+
+.eau {
+	position: absolute;
+	width: 334px;
+	height: 68.14px;
+	left: 20px;
+	top: 446px;
+}
+
+.co2 {
+	position: absolute;
+	width: 334px;
+	height: 68.14px;
+	left: 20px;
+	top: 541px;
+}
+
+.lavage {
+	position: absolute;
+width: 334px;
+height: 68.14px;
+left: 20px;
+top: 678px;
+margin-bottom: 100px;
+}
+
 
 }
