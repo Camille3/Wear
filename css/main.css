@@ -72,9 +72,6 @@
 	/* Un message personnalisé */
 
 
-}
-
-
 
 
 h1 {
@@ -112,6 +109,23 @@ text-align: center;
 color: #696969;
 }
 
+
+h3 {
+	position: absolute;
+	width: 322px;
+	height: 24px;
+	left: 19px;
+	top: 395px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+color: #9B9B9B;
+}
+
 .image1{
   position: absolute;
 width: 240px;
@@ -119,6 +133,48 @@ height: 245px;
 left: 67px;
 top: 280px;
 }
+
+.code-barre{
+	position: absolute;
+width: 194px;
+height: 107px;
+left: 91px;
+top: 233px;
+}
+
+.article1 {
+position: absolute;
+width: 159px;
+height: 64px;
+left: 29px;
+top: 455px;
+}
+
+.article2 {
+position: absolute;
+width: 159px;
+height: 64px;
+left: 188px;
+top: 455px;
+}
+
+.bouton-historique {
+position: absolute;
+width: 112px;
+height: 24px;
+left: 131px;
+top: 534px;
+}
+
+.menu {
+position: absolute;
+width: 375px;
+height: 74px;
+left: 0px;
+top: 593px;
+
+}
+
 
 .circle1 {
 position: absolute;
@@ -148,4 +204,18 @@ left: 204px;
 top: 606px;
 border-radius: 50%;
 background: #EAE8E8;
+}
+
+.rectangle1 {
+
+position: absolute;
+width: 200px;
+height: 114px;
+left: 87px;
+top: 227px;
+
+background: #65B389;
+border-radius: 19px;
+}
+
 }
