@@ -2,7 +2,7 @@
 var theCodes = [89101117,12345670];
 
 //insertion des urls associées aux codes barre
-var urls = ['http://google.com','http://yahoo.fr'];
+var urls = ['index3.html','http://yahoo.fr'];
 
 
 
@@ -42,21 +42,21 @@ var decodeCallback = function (ptr, len, resultIndex, resultCount) {
 
   barcode_result.textContent = String.fromCharCode.apply(null, result);
   buttonGo.disabled = false;
-  
+
   if(String.fromCharCode.apply(null, result)!=null){
-  
-  
+
+
   var myCode = String.fromCharCode.apply(null, result);
-   
+
    checkCode(myCode);
-  
+
   }
-  
+
   if (isPC) {
     //canvas.style.display = 'block';
   } else {
     //mobileCanvas.style.display = 'block';
-  } 
+  }
 };
 
 
@@ -189,7 +189,7 @@ function scanBarcode() {
     setTimeout(scanBarcode, 30);
   }
 }
-// https://github.com/samdutton/simpl/tree/gh-pages/getusermedia/sources 
+// https://github.com/samdutton/simpl/tree/gh-pages/getusermedia/sources
 //var videoSelect = document.querySelector('select#videoSource');
 
 navigator.mediaDevices.enumerateDevices()
@@ -220,17 +220,17 @@ function getStream() {
       track.stop();
     });
   }
-  
+
   var constraints = {
     video: {
-    facingMode: { 
-    exact: "environment", 
+    facingMode: {
+    exact: "environment",
     width: { max: 320 },
     height: { max: 240 }
-    } 
+    }
       //deviceId: {exact: videoSelect.value}
     }
-    
+
   };
 
   navigator.mediaDevices.getUserMedia(constraints).
