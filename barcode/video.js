@@ -2,7 +2,7 @@
 var theCodes = [89101117,12345670];
 
 //insertion des urls associées aux codes barre
-var urls = ['index3.html','http://yahoo.fr'];
+var urls = ['../index3.html','http://yahoo.fr'];
 
 
 
