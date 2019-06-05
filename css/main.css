@@ -130,7 +130,7 @@ h4 {
 	width: 322px;
 	height: 32px;
 	left: 20px;
-	top: 65px;
+	top: 52px;
 font-family: 'Nunito', sans-serif;
 font-style: normal;
 font-weight: 900;
@@ -236,7 +236,7 @@ position: fixed;
 width: 375px;
 height: 74px;
 left: 0px;
-top: 593px;
+top: 483px;
 
 }
 
@@ -287,7 +287,7 @@ border-radius: 19px;
 {
 position: absolute;
 left: 22px;
-top: 43px;
+top: 16px;
 }
 
 .aide {
@@ -295,7 +295,7 @@ top: 43px;
 	width: 24px;
 	height: 24px;
 	left: 333px;
-	top: 39px;
+	top: 14px;
 }
 
 .note {
@@ -303,7 +303,7 @@ top: 43px;
 width: 116px;
 height: 26px;
 left: 20px;
-top: 142px;
+top: 126px;
 }
 
 .polyester {

@@ -2,7 +2,7 @@
 var theCodes = [89101117,58494943,12345670];
 
 //insertion des urls associées aux codes barre
-var urls = ['https://camille3.github.io/Wear/index3.html','https://fonts.google.com/',];
+var urls = ['https://camille3.github.io/Wear/index3.html','https://camille3.github.io/Wear/index4.html'];
 
 
 
