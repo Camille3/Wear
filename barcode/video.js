@@ -1,8 +1,8 @@
 //insertion des codes barre à décoder
-var theCodes = [89101117];
+var theCodes = [89101117,00000000];
 
 //insertion des urls associées aux codes barre
-var urls = ['../index3.html'];
+var urls = ['https://fonts.google.com/','https://fonts.google.com/'];
 
 
 
