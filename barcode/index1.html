@@ -31,8 +31,7 @@
   margin-top:-200px;
   margin-left:-315px;
   border: solid 10px #65B389;
-  border-radius: 30px;
-  }
+  border-radius: 30px;  }
   </style>
 </head>
 <body>
@@ -42,7 +41,7 @@
     <canvas id="pcCanvas" width="640" height="480" style="display: none; float: bottom;"></canvas>
     <canvas id="mobileCanvas" width="240" height="320" style="display: none; float: bottom;"></canvas>
   </div>
-  <div id="scanDiv">
+  <div id="scanDiv" onclick="scanBarcode()">
   </div>
 <button id="go"></button>
   <div>Barcode result: <span id="dbr"></span></div>
