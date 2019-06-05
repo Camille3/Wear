@@ -79,7 +79,7 @@ h1 {
 width: 322px;
 height: 65px;
 left: 26px;
-top: 94px;
+top: 54px;
 
 font-family: 'Nunito', sans-serif;
 font-style: normal;
@@ -97,7 +97,7 @@ h2{
 width: 322px;
 height: 65px;
 left: 26px;
-top: 183px;
+top: 143px;
 
 font-family: 'Nunito', sans-serif;
 font-style: normal;
@@ -195,7 +195,7 @@ color: #9B9B9B;
 width: 240px;
 height: 245px;
 left: 67px;
-top: 280px;
+top: 250px;
 }
 
 .code-barre{
@@ -246,7 +246,7 @@ position: absolute;
 width: 10px;
 height: 10px;
 left: 182px;
-top: 606px;
+top: 566px;
 border-radius: 50%;
 background: #EAE8E8;
 }
@@ -256,7 +256,7 @@ position: absolute;
 width: 10px;
 height: 10px;
 left: 160px;
-top: 606px;
+top: 566px;
 border-radius: 50%;
 background: #65B389;
 }
@@ -266,7 +266,7 @@ position: absolute;
 width: 10px;
 height: 10px;
 left: 204px;
-top: 606px;
+top: 566px;
 border-radius: 50%;
 background: #EAE8E8;
 }
