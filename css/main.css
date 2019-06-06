@@ -272,6 +272,16 @@ border-radius: 50%;
 background: #EAE8E8;
 }
 
+.circle4 {
+position: absolute;
+width: 10px;
+height: 10px;
+left: 277px;
+top: 786px;
+border-radius: 50%;
+background: white;
+}
+
 .rectangle1 {
 
 position: absolute;
